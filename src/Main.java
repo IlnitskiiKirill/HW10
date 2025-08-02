@@ -31,15 +31,15 @@ public class Main {
             System.out.println();
             {
                 System.out.println("Задача №3");
-                int total =0;
-                for (int expence : weeklyExpence){
+                int total = 0;
+                for (int expence : weeklyExpence) {
                     total += expence;
                     double averege = (double) total / weeklyExpence.length;
                     System.out.println("Средняя сумма трат за месяц составила " + averege + " руб.");
                 }
                 System.out.println();
                 System.out.println("Задача №4");
-                char[] reversFullName = {'n','a','v','I',' ','v','o','n','a','v','I'};
+                char[] reversFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
                 System.out.println("Исходный массив: " + new String(reversFullName));
                 for (int i = 0; i < reversFullName.length / 2; i++) {
                     char temp = reversFullName[i];
@@ -47,9 +47,10 @@ public class Main {
                     reversFullName[reversFullName.length - 1 - i] = temp;
                 }
                 System.out.println("Результат: " + new String(reversFullName));
-                }
-
-
             }
+
+
         }
     }
+}
+
