@@ -10,7 +10,6 @@ public class Main {
             totalExpence += expence;
         }
         System.out.println("Сумма трат за месяц составила " + totalExpence + " руб.");
-
         {
             System.out.println();
             {
