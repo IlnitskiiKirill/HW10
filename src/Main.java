@@ -2,7 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Задача №1");
         int[] weeklyExpence = {10000, 15000, 19000, 24000, 12000};
         int totalExpence = 0;
