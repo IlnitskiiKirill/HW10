@@ -49,7 +49,6 @@ public class Main {
                 System.out.println("Результат: " + new String(reversFullName));
             }
 
-
         }
     }
 }
